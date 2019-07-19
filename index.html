@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kanji</title>
+    <link rel="./index.css" type="stylesheet/text">
+</head>
+
+<body>
+    <canvas id="canvassample" width="500" height="300"></canvas>
+    <div style="padding:10px">
+        <button type="button" onclick="clearCanvas()">リセット</button>
+        <button type="button" onclick="prevCanvas()">戻る</button>
+        <button type="button" onclick="nextCanvas()">進む</button>
+    </div>
+    <div style="padding:10px">
+        <button type="button" onclick="chgImg()" value="1">画像変換</button>
+    </div>
+    <h2>画像出力</h2>
+    <div id="img-box"><img id="newImg"></div>
+</body>
+<script type="text/javascript" src="./index.js"></script>
+
+</html>
